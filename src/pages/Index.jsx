@@ -43,7 +43,7 @@ const Index = () => {
             value={taskInput}
             onChange={(e) => setTaskInput(e.target.value)}
           />
-          <Button onClick={handleAddTask} colorScheme="teal">Add Task</Button>
+          <Button onClick={handleAddTask} colorScheme="purple">Add Task</Button>
         </HStack>
         <VStack spacing={2} width="100%">
           {tasks.map((task) => (
